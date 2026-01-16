@@ -84,6 +84,7 @@ The board includes integrated development tools accessible via a single USB Type
 | Clock Frequency | 1200 MHz |
 | System Memory | 64 MB DDR2 |
 | External FLASH | 256 MB |
+| External eMMC | 8 GB |
 | Video Decoder | H.264 up to 1080@30fps |
 | Video Encoder | H.264 up to 720@60fps |
 | Host Interface | USB-A |
@@ -203,7 +204,7 @@ The board includes integrated development tools accessible via a single USB Type
 ### LED Indicators
 
 During operation:
-- **Red LED** - Indicates FPGA register access (external ADS7884 readout)
+- **Yellow LED** - Indicates FPGA register access (externals DAC8830 and ADS7884 readout)
 
 ---
 
