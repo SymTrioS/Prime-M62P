@@ -167,7 +167,7 @@ The board includes integrated development tools accessible via a single USB Type
 
 5. **Monitor Microcontroller Output**
    
-   Open COM Port 2 to view real-time diagnostic output from the STM32F373. The test firmware reports:
+   Open COM Port 2 to view real-time diagnostic output from the STM32F412. The test firmware reports:
    - Cyclic DAC voltage values;
    - Data from the two FPGA-connected ADS7884 converters.
 
