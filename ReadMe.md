@@ -1,6 +1,6 @@
 # Prime-M62P
 
-![Prime-M62P Board](https://github.com/SymTrioS/Prime-M62P/blob/main/Jpg/Prime_M62P.jpg)
+![Prime-M62P Board](https://github.com/SymTrioS/Prime-M62P/blob/main/Jpg/Prime-M62P.jpg)
 
 ### A Heterogeneous Computing Platform with Three Integrated Processing Units
 
