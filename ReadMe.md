@@ -143,7 +143,7 @@ The board includes integrated development tools accessible via a single USB Type
    
 2. **Connect the Board**
    
-   Connect the Prime-M35P to your computer using the USB Type-C connector.
+   Connect the Prime-M62P to your computer using the USB Type-C connector.
 
 3. **Verify Device Enumeration**
    
@@ -168,7 +168,7 @@ The board includes integrated development tools accessible via a single USB Type
 5. **Monitor Microcontroller Output**
    
    Open COM Port 2 to view real-time diagnostic output from the STM32F412. The test firmware reports:
-   - Cyclic DAC voltage values;
+   - Cyclic DAC8830 voltage values;
    - Data from the two FPGA-connected ADS7884 converters.
 
 6. **Configuring the FPGA**
@@ -203,7 +203,7 @@ The board includes integrated development tools accessible via a single USB Type
 ### LED Indicators
 
 During operation:
-- **Red LED** - Indicates FPGA register access (external ADC121 readout)
+- **Red LED** - Indicates FPGA register access (external ADS7884 readout)
 
 ---
 
@@ -216,7 +216,7 @@ Test firmware is available for two development environments:
 - **IAR Embedded Workbench:**
 - **Visual Studio Code:**
 
-![Development Environments](https://github.com/SymTrioS/Prime-M62P/blob/main/Jpg/Prime-M35P_IAR_VSC.jpg)
+![Development Environments](https://github.com/SymTrioS/Prime-M62P/blob/main/Jpg/Prime-M62P_IAR_VSC.jpg)
 
 ### FPGA Development
 
