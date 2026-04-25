@@ -33,6 +33,16 @@ The board includes integrated development tools accessible via a single USB Type
 
 ![Functional Diagram](https://github.com/SymTrioS/Prime-M62P/blob/main/Jpg/Prime-M62P_v24_Func.jpg)
 
+---
+
+### Numbering, accessories, and pin functions of connectors Y1,Y6 and Y4:
+
+![Prime-M62P Board](https://github.com/SymTrioS/Prime-M62P/blob/main/Jpg/M62P-Y1_Y6.jpg)
+
+![Prime-M62P Board](https://github.com/SymTrioS/Prime-M62P/blob/main/Jpg/M62P-Y4.jpg)
+
+---
+
 ### System Components
 
 #### **Allwinner V3S Application Processor**
