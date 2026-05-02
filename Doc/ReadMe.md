@@ -1,12 +1,13 @@
 <h2 align="center">Description files</h2>
 
 - Prime-M62P_v24_Func.pdf - board functional diagram;  
-- Prime-M62P_v24_Dim.pdf  - board dimensions, connector locations, and pin numbering.  
+- Prime-M62P_v24_Dim.pdf  - board dimensions, connector locations, and pin numbering;  
 - Prime-M62P_Con.pdf      - component signals available on external connectors;  
-- BOX_G1183.pdf           - type and dimensions of enclosure suitable for the Prime-M62P board,  
-- BOX_G1188.pdf           - type and dimensions of enclosure suitable for the Prime-M62P board,  
-- BOX_G766_G767_G768.pdf  - type and dimensions of enclosure suitable for the Prime-M62P board,  
-- BOX_120x97x40.jpg       - small-sized aluminum box for Prime-M62P board;  
+- Prime-M62P_Brd.pdf      - on-board component connections;  
+- BOX_G1183.pdf           - type and dimensions of enclosure suitable for the Prime-M62P board;  
+- BOX_G1188.pdf           - type and dimensions of enclosure suitable for the Prime-M62P board;  
+- BOX_G766_G767_G768.pdf  - type and dimensions of enclosure suitable for the Prime-M62P board;  
+- BOX_120x97x40.jpg       - small-sized aluminum box for Prime-M62P board.  
 
 <h2 align="center">Linux system build procedure</h2>
 
