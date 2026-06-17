@@ -100,11 +100,11 @@ Prime-M/uSD$ sudo cp sun8i-v3s-prime-m.dtb /mnt
 Prime-M$/uSD sync  
 Prime-M/uSD$ sudo umount /dev/sdx1  
 
-*Get https://disk.yandex.ru/d/VCLHKDqusnvv8A/debian12.rootfs-m.tar rootFS in uSD folder or use another build*  
+*Get https://disk.yandex.ru/d/IMeuZbaHotZZ5w/debian12.rootfs.tar rootFS in uSD folder or use another build*  
 
 *Write FS:*  
 Prime-M/uSD$ sudo mount /dev/sdx2 /mnt  
-Prime-M/uSD$ sudo tar -C /mnt/ -xf debian12.rootfs-m.tar  
+Prime-M/uSD$ sudo tar -C /mnt/ -xf debian12.rootfs.tar  
 Prime-M/uSD$ sync  
 Prime-M/uSD$ cd ../linux-m  
 Prime-M/linux-m$ sudo cp -r out/lib /mnt/usr/  
