@@ -16,19 +16,18 @@ Prime-M62P/uSD$ sudo cp sun8i-v3s-prime-m.dtb /mnt
 Prime-M62P$/uSD sync  
 Prime-M62P/uSD$ sudo umount /dev/sdx1  
 
-*Get https://disk.yandex.ru/d/VCLHKDqusnvv8A/debian12.rootfs-m.tar rootFS in uSD folder or use another build*  
+*Get https://disk.yandex.ru/d/IMeuZbaHotZZ5w/debian12.rootfs.tar rootFS in uSD folder or use another build*  
 
 *Write FS:*  
 Prime-M62P/uSD$ sudo mount /dev/sdx2 /mnt  
-Prime-M62P/uSD$ sudo tar -C /mnt/ -xf debian12.rootfs-m.tar  
+Prime-M62P/uSD$ sudo tar -C /mnt/ -xf debian12.rootfs.tar  
 Prime-M62P/uSD$ sync  
 
 *To set up the network, copy the interfaces file, having previously edited it.*  
 Prime-M62P/uSD$ sudo cp interfaces /mnt/etc/network/
 
-*Get https://disk.yandex.ru/d/VCLHKDqusnvv8A/linux-m.zip Linux drivers library and unzip in uSD folder*  
+*Unpack out.zip Linux drivers library in uSD folder*  
 
-Prime-M62P/uSD$ cd linux-m  
-Prime-M62P/uSD/linux-m$ sudo cp -r out/lib /mnt/usr/  
-Prime-M62P/uSD/linux-m$ sync  
-Prime-M62P/uSD/linux-m$ sudo umount /dev/sdx2  
+Prime-M62P/uSD$ sudo cp -r out/lib /mnt/usr/  
+Prime-M62P/uSD$ sync  
+Prime-M62P/uSD$ sudo umount /dev/sdx2  
