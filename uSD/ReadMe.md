@@ -16,7 +16,7 @@ Prime-M62P/uSD$ sudo cp sun8i-v3s-prime-m.dtb /mnt
 Prime-M62P$/uSD sync  
 Prime-M62P/uSD$ sudo umount /dev/sdx1  
 
-*Get https://disk.yandex.ru/d/nu7VcEk_1FgSHA/debian12.rootfs.tar rootFS in uSD folder or use another build*  
+*Get https://disk.yandex.ru/d/AGH8wzkAhWugOQ/nu7VcEk_1FgSHA/debian12.rootfs.tar rootFS in uSD folder or use another build*  
 
 *Write FS:*  
 Prime-M62P/uSD$ sudo mount /dev/sdx2 /mnt  
